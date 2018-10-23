@@ -22,7 +22,11 @@
     "mongoose": "^4.13.11",
     "morgan": "^1.9.0",
     "pm2": "^2.9.3",
+<<<<<<< HEAD
     "request": "^2.88.0"
+=======
+    "request": "^2.83.0"
+>>>>>>> dc614cda6f4645e15a12fb51a6c48ad2d23d498f
   },
   "repository": {
     "type": "git",

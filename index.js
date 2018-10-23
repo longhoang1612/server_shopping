@@ -3,8 +3,11 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var Diacritics = require('diacritic');
+<<<<<<< HEAD
 var cheerio = require('cheerio');
 var request = require('request');
+=======
+>>>>>>> dc614cda6f4645e15a12fb51a6c48ad2d23d498f
 
 //import model
 var Food = require('./models/food');
@@ -224,6 +227,7 @@ app.post('/createFood', function (req, res) {
   );
 });
 
+<<<<<<< HEAD
 //Create Category
 app.get('create_category',function(req,res){
   var request = require('request');
@@ -234,6 +238,8 @@ app.get('create_category',function(req,res){
   });
 });
 
+=======
+>>>>>>> dc614cda6f4645e15a12fb51a6c48ad2d23d498f
 //Get Food
 app.get('/getFood', function (req, res) {
   Food.find(function (err, foods) {
